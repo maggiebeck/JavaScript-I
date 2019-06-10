@@ -3,7 +3,7 @@
 // let myFunction = function () {
 // console.log("Function was invoked!");
 // };
-// myFunction();
+// myFunction(()=> );
 
 // let anotherFunction = function (param) {
 //   return param;
@@ -13,12 +13,14 @@
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
-// add(1,2);
+add(1,2); const add = (1+2) => 1+2;
+console.log(add(1,2))
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
-// subtract(1,2);
+subtract(1,2); const subtract = (param1-param2) => param1+param2;
+console.log(subtract(param1,param2))
 
 
 // Stretch
